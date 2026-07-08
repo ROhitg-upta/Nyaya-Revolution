@@ -105,14 +105,7 @@ body{
     padding:60px 120px;
 }
 
-.hero h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 1.4;
-    color: #1E3A5F;   /* Navy Blue */
-    margin-bottom: 20px;
-    letter-spacing: 0.5px;
-}
+
 
 
 .hero {
@@ -124,14 +117,89 @@ body{
     
 }
 
-.hero-right {
-    background-color: #f0f4f8; /* Light Gray */
-      width:400px;
-    height:400px;
-    flex:1;
-}
+
 
 .hero-left {
 flex:1;
     padding-right: 40px;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #1E3A5F;   /* Navy Blue */
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.hero-left p {
+    font-size: 1.2rem;
+    color: #4B5563;   /* Dark Gray */
+    /* margin-bottom: 30px; */
+    line-height: 1.6;
+
+}
+
+.hero-left input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid #E5E7EB; /* Light Gray */
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.hero-search-btn {
+    padding: 10px 22px;
+    background: linear-gradient(135deg, #2563EB, #1D4ED8);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+}
+
+.hero-search-btn:hover {
+    background: linear-gradient(135deg, #1D4ED8, #1E40AF);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.4);
+}
+
+.hero-search-btn:active {
+    transform: scale(0.96);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #00ee9e, #049af0);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(16, 185, 129, 0.3);
+    
+  
+}
+
+
+
+
+.hero-right {
+    background-color: #f0f4f8; /* Light Gray */
+      width:300px;
+    height:300px;
+    flex:1;
 }
