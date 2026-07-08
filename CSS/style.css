@@ -115,5 +115,23 @@ body{
 }
 
 
+.hero {
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    padding : 60px 120px;
+    
+}
 
+.hero-right {
+    background-color: #f0f4f8; /* Light Gray */
+      width:400px;
+    height:400px;
+    flex:1;
+}
 
+.hero-left {
+flex:1;
+    padding-right: 40px;
+}
